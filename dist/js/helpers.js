@@ -16,6 +16,7 @@ export const gebi = document.getElementById;
  * innerText: (optional) The value to set the element's innerText to
  * value: (optional) The value to set the element's "value" attribute to
  * children: (optional) An array of elements to pass to appendChild
+ * @returns {HTMLElement} Returns the newly created HTML Element
  */
 export const ce2 = (
     tagName = 'div',
